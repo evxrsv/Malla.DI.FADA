@@ -1,1 +1,324 @@
-
+{
+    "semestres": [
+        {
+            "nombre": "1º Semestre",
+            "materias": [
+                {
+                    "nombre": "Diseño de Productos I",
+                    "ucr": 8,
+                    "tipo": "obligatoria",
+                    "correlativas": []
+                },
+                {
+                    "nombre": "Historia del Diseño I",
+                    "ucr": 2,
+                    "tipo": "obligatoria",
+                    "correlativas": []
+                }
+            ]
+        },
+        {
+            "nombre": "2º Semestre",
+            "materias": [
+                {
+                    "nombre": "Gestión de Empresas",
+                    "ucr": 2,
+                    "tipo": "obligatoria",
+                    "correlativas": []
+                },
+                {
+                    "nombre": "Teoría y Sociedad",
+                    "ucr": 2,
+                    "tipo": "obligatoria",
+                    "correlativas": []
+                },
+                {
+                    "nombre": "Representación y Expresión",
+                    "ucr": 2,
+                    "tipo": "obligatoria",
+                    "correlativas": []
+                },
+                {
+                    "nombre": "Diseño de Productos II",
+                    "ucr": 8,
+                    "tipo": "obligatoria",
+                    "correlativas": [
+                        "Diseño de Productos I"
+                    ]
+                },
+                {
+                    "nombre": "Historia del Diseño II",
+                    "ucr": 2,
+                    "tipo": "obligatoria",
+                    "correlativas": [
+                        "Historia del Diseño I"
+                    ]
+                },
+                {
+                    "nombre": "Marketing I",
+                    "ucr": 2,
+                    "tipo": "obligatoria",
+                    "correlativas": []
+                }
+            ]
+        },
+        {
+            "nombre": "3º Semestre",
+            "materias": [
+                {
+                    "nombre": "Diseño de Productos III",
+                    "ucr": 8,
+                    "tipo": "obligatoria",
+                    "correlativas": [
+                        "Diseño de Productos II"
+                    ]
+                },
+                {
+                    "nombre": "Marketing II",
+                    "ucr": 2,
+                    "tipo": "obligatoria",
+                    "correlativas": [
+                        "Marketing I"
+                    ]
+                }
+            ]
+        },
+        {
+            "nombre": "4º Semestre",
+            "materias": [
+                {
+                    "nombre": "Diseño de Productos IV",
+                    "ucr": 8,
+                    "tipo": "obligatoria",
+                    "correlativas": [
+                        "Diseño de Productos III"
+                    ]
+                },
+                {
+                    "nombre": "Realidad Paraguaya",
+                    "ucr": 2,
+                    "tipo": "obligatoria",
+                    "correlativas": []
+                },
+                {
+                    "nombre": "Tecnología I",
+                    "ucr": 3,
+                    "tipo": "obligatoria",
+                    "correlativas": []
+                },
+                {
+                    "nombre": "Taller de Visualización I",
+                    "ucr": 8,
+                    "tipo": "obligatoria",
+                    "correlativas": []
+                },
+                {
+                    "nombre": "Ciencia y Tecnología",
+                    "ucr": 2,
+                    "tipo": "obligatoria",
+                    "correlativas": []
+                },
+                {
+                    "nombre": "Geometría Descriptiva Aplicada I",
+                    "ucr": 4,
+                    "tipo": "obligatoria",
+                    "correlativas": []
+                }
+            ]
+        },
+        {
+            "nombre": "5º Semestre - Diseño de Productos",
+            "mencion": "productos",
+            "materias": [
+                {
+                    "nombre": "Diseño de Productos V",
+                    "ucr": 8,
+                    "tipo": "obligatoria",
+                    "correlativas": [
+                        "Diseño de Productos IV"
+                    ]
+                },
+                {
+                    "nombre": "Merchandising",
+                    "ucr": 4,
+                    "tipo": "obligatoria",
+                    "correlativas": []
+                },
+                {
+                    "nombre": "Gestión de Empresas",
+                    "ucr": 2,
+                    "tipo": "obligatoria",
+                    "correlativas": []
+                }
+            ]
+        },
+        {
+            "nombre": "6º Semestre - Diseño de Productos",
+            "mencion": "productos",
+            "materias": [
+                {
+                    "nombre": "Diseño de Productos VI",
+                    "ucr": 6,
+                    "tipo": "obligatoria",
+                    "correlativas": [
+                        "Diseño de Productos V"
+                    ]
+                },
+                {
+                    "nombre": "Introducción a la Producción Científica",
+                    "ucr": 3,
+                    "tipo": "obligatoria",
+                    "correlativas": []
+                },
+                {
+                    "nombre": "Gestión de Diseño",
+                    "ucr": 2,
+                    "tipo": "obligatoria",
+                    "correlativas": []
+                }
+            ]
+        },
+        {
+            "nombre": "7º Semestre - Diseño de Productos",
+            "mencion": "productos",
+            "materias": [
+                {
+                    "nombre": "Diseño de Productos VII",
+                    "ucr": 6,
+                    "tipo": "obligatoria",
+                    "correlativas": [
+                        "Diseño de Productos VI"
+                    ]
+                },
+                {
+                    "nombre": "TFG - Investigación",
+                    "ucr": 6,
+                    "tipo": "obligatoria",
+                    "correlativas": [
+                        "Diseño de Productos VI"
+                    ]
+                },
+                {
+                    "nombre": "Legislación y Práctica Profesional",
+                    "ucr": 2,
+                    "tipo": "obligatoria",
+                    "correlativas": []
+                }
+            ]
+        },
+        {
+            "nombre": "8º Semestre - Diseño de Productos",
+            "mencion": "productos",
+            "materias": [
+                {
+                    "nombre": "Diseño de Productos VIII",
+                    "ucr": 4,
+                    "tipo": "obligatoria",
+                    "correlativas": [
+                        "Diseño de Productos VII"
+                    ]
+                },
+                {
+                    "nombre": "TFG - Proyecto",
+                    "ucr": 6,
+                    "tipo": "obligatoria",
+                    "correlativas": [
+                        "TFG - Investigación"
+                    ]
+                }
+            ]
+        },
+        {
+            "nombre": "5º Semestre - Diseño Gráfico",
+            "mencion": "grafico",
+            "materias": [
+                {
+                    "nombre": "Diseño Gráfico I",
+                    "ucr": 6,
+                    "tipo": "obligatoria",
+                    "correlativas": []
+                },
+                {
+                    "nombre": "Comunicación Persuasiva",
+                    "ucr": 3,
+                    "tipo": "obligatoria",
+                    "correlativas": []
+                }
+            ]
+        },
+        {
+            "nombre": "6º Semestre - Diseño Gráfico",
+            "mencion": "grafico",
+            "materias": [
+                {
+                    "nombre": "Diseño Gráfico II",
+                    "ucr": 6,
+                    "tipo": "obligatoria",
+                    "correlativas": [
+                        "Diseño Gráfico I"
+                    ]
+                }
+            ]
+        },
+        {
+            "nombre": "7º Semestre - Diseño Gráfico",
+            "mencion": "grafico",
+            "materias": [
+                {
+                    "nombre": "Diseño Gráfico III",
+                    "ucr": 6,
+                    "tipo": "obligatoria",
+                    "correlativas": [
+                        "Diseño Gráfico II"
+                    ]
+                },
+                {
+                    "nombre": "Diseño Gráfico IV",
+                    "ucr": 6,
+                    "tipo": "obligatoria",
+                    "correlativas": [
+                        "Diseño Gráfico III"
+                    ]
+                },
+                {
+                    "nombre": "TFG - Investigación",
+                    "ucr": 6,
+                    "tipo": "obligatoria",
+                    "correlativas": [
+                        "Diseño Gráfico III"
+                    ]
+                }
+            ]
+        },
+        {
+            "nombre": "8º Semestre - Diseño Gráfico",
+            "mencion": "grafico",
+            "materias": [
+                {
+                    "nombre": "Diseño Gráfico V",
+                    "ucr": 6,
+                    "tipo": "obligatoria",
+                    "correlativas": [
+                        "Diseño Gráfico IV"
+                    ]
+                },
+                {
+                    "nombre": "Diseño Gráfico VI",
+                    "ucr": 6,
+                    "tipo": "obligatoria",
+                    "correlativas": [
+                        "Diseño Gráfico V"
+                    ]
+                },
+                {
+                    "nombre": "TFG - Proyecto",
+                    "ucr": 6,
+                    "tipo": "obligatoria",
+                    "correlativas": [
+                        "TFG - Investigación"
+                    ]
+                }
+            ]
+        }
+    ]
+}
